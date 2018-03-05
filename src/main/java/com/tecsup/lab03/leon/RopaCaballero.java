@@ -2,7 +2,6 @@ package com.tecsup.lab03.leon;
 
 public class RopaCaballero {
 
-	//branch leon
 	public String getNombre() {
 		return nombre;
 	}
@@ -43,6 +42,10 @@ public class RopaCaballero {
 		this.precio = precio;
 	}
 	
+	public RopaCaballero() {
+		
+	}
+	
 	@Override
 	public String toString() {
 		return "RopaCaballero [nombre=" + nombre + ", descripcion=" + descripcion + ", talla=" + talla + ", foto_uri="
@@ -57,15 +60,3 @@ public class RopaCaballero {
 	
 	
 }
-}
-
-
-/*
-La asociación de ropa de caballeros desea publicar 
-los nombres de la prenda, 
-su descripción, 
-talla, 
- fotos y
-  precios de sus productos
-
-*/
