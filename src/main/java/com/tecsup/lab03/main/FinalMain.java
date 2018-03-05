@@ -6,6 +6,8 @@ import java.util.Iterator;
 import com.tecsup.lab03.leon.RopaCaballero;
 import com.tecsup.lab03.leon.RopaNino;
 
+import com.tecsup.lab03.Alvarado.*;
+
 public class FinalMain {
 
 	public static void main(String[] args) {
@@ -34,6 +36,10 @@ public class FinalMain {
 			RopaNino x = j.next();
 			System.out.println(x.toString());
 		}
+		AsocBebe u = new AsocBebe();
+		u.publicar();
+		AsocDama w = new AsocDama();
+		w.publicar();
 		
 	}
 
