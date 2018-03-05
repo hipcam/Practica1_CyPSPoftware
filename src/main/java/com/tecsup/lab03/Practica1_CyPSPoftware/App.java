@@ -1,14 +1,18 @@
 package com.tecsup.lab03.Practica1_CyPSPoftware;
-
+import com.tecsup.lab03.Alvarado.*;
 /**
  * Hello world!
  *
  */
 public class App 
 {
-    public static void main( String[] args )
+	
+    public static void main( String[] args ) {
+     
+    AsocBebe bebe1=new AsocBebe();
     {
-        System.out.println( "Hello World!" );
-        //commented by Bruno
+     bebe1.publicar();
     }
+    //YOLO
+}
 }
